@@ -1,0 +1,27 @@
+{
+  "name": "@pigs/domain",
+  "version": "0.9.0",
+  "description": "The Three Little Pigs - domain",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "ddd"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@pigs/shared": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.2"
+  },
+  "author": "mat3e"
+}

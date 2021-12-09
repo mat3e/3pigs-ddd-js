@@ -1,0 +1,26 @@
+{
+  "name": "@pigs/adapters",
+  "version": "0.9.0",
+  "description": "The Three Little Pigs - adapters",
+  "main": "rest.js",
+  "directories": {
+    "lib": ".",
+    "test": "__tests__"
+  },
+  "files": [
+    "."
+  ],
+  "keywords": [
+    "ddd"
+  ],
+  "scripts": {
+    "start": "node rest.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "@pigs/app": "^0.9.0",
+    "@pigs/domain": "^0.9.0",
+    "koa": "^2.13.4"
+  },
+  "author": "mat3e"
+}
